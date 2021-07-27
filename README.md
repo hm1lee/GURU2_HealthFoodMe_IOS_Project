@@ -7,5 +7,6 @@
 
 
 - idea : Decided to recommend diet and exercise - Using CoreML
+  
   (예. https://www.youtube.com/watch?v=c3RQi_Iq5ng&feature=youtu.be)
   
