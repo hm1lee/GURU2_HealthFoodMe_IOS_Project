@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>1537913211-c3kscvc4sf7giqpk8j25mf412cs9c9te.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.1537913211-c3kscvc4sf7giqpk8j25mf412cs9c9te</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDQj45GK-dPP-GoPyJgIt6U2YLMOs_KMgo</string>
+	<key>GCM_SENDER_ID</key>
+	<string>1537913211</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>guruming2</string>
+	<key>PROJECT_ID</key>
+	<string>guru2project-fb061</string>
+	<key>STORAGE_BUCKET</key>
+	<string>guru2project-fb061.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:1537913211:ios:baaac8ad4ea2ee811f4dde</string>
+</dict>
+</plist>
