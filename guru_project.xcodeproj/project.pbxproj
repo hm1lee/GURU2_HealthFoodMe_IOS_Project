@@ -8,6 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		34CF6A5A42A4FF2506DCA83F /* Pods_guru_project.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB1331DF72D76DA79B7139FB /* Pods_guru_project.framework */; };
+		6901550826B9B88200FEB8EA /* PTViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6901550726B9B88200FEB8EA /* PTViewController.swift */; };
+		6901551726B9BE7500FEB8EA /* diary.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 6901551326B9BE6E00FEB8EA /* diary.PNG */; };
+		6901551826B9BE7500FEB8EA /* food.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 6901551426B9BE6F00FEB8EA /* food.PNG */; };
+		6901551926B9BE7500FEB8EA /* pt.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 6901551526B9BE7100FEB8EA /* pt.PNG */; };
+		6901551A26B9BE7500FEB8EA /* habit.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 6901551626B9BE7300FEB8EA /* habit.PNG */; };
+		6901551C26B9C61200FEB8EA /* FAQViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6901551B26B9C61200FEB8EA /* FAQViewController.swift */; };
+		691CB8C326BA3094005C8F14 /* setting.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 691CB8C126BA3093005C8F14 /* setting.PNG */; };
+		691CB8C526BA309E005C8F14 /* fap.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 691CB8C426BA309D005C8F14 /* fap.PNG */; };
+		691CB8C726BA31A1005C8F14 /* pencil.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 691CB8C626BA31A1005C8F14 /* pencil.PNG */; };
+		691CB8C926BA3712005C8F14 /* intro.gif in Resources */ = {isa = PBXBuildFile; fileRef = 691CB8C826BA3712005C8F14 /* intro.gif */; };
+		691CB8D926BB9763005C8F14 /* image.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 691CB8D826BB9762005C8F14 /* image.PNG */; };
 		695DAA1626ABE1F600DD880D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695DAA1526ABE1F600DD880D /* AppDelegate.swift */; };
 		695DAA1826ABE1F600DD880D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695DAA1726ABE1F600DD880D /* SceneDelegate.swift */; };
 		695DAA1A26ABE1F600DD880D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695DAA1926ABE1F600DD880D /* ViewController.swift */; };
@@ -25,15 +36,40 @@
 		695DAA4426ABF7DA00DD880D /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695DAA4326ABF7DA00DD880D /* SettingViewController.swift */; };
 		695DAA4926ABFBD900DD880D /* InputlistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695DAA4826ABFBD800DD880D /* InputlistViewController.swift */; };
 		695DAA4D26ABFF2000DD880D /* SettingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695DAA4C26ABFF2000DD880D /* SettingTableViewCell.swift */; };
-		695DAA5326AC019800DD880D /* healthy.gif in Resources */ = {isa = PBXBuildFile; fileRef = 695DAA5226AC019800DD880D /* healthy.gif */; };
+		69BAA07A26B8E64500898235 /* bell.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 69BAA07926B8E64400898235 /* bell.PNG */; };
+		69BAA08426B8EB8300898235 /* SettingViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69BAA08326B8EB8300898235 /* SettingViewController2.swift */; };
+		69BAA08626B8F6A100898235 /* MyhealthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69BAA08526B8F6A100898235 /* MyhealthViewController.swift */; };
+		69BAA08E26B8F96400898235 /* WeeklyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69BAA08D26B8F96400898235 /* WeeklyViewController.swift */; };
+		69BAA09026B8F98700898235 /* EventCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69BAA08F26B8F98700898235 /* EventCell.swift */; };
+		69BAA09226B8F99C00898235 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69BAA09126B8F99C00898235 /* Event.swift */; };
+		69BAA09426B8F9B700898235 /* CalendarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69BAA09326B8F9B700898235 /* CalendarCell.swift */; };
+		69BAA09626B8F9D000898235 /* CalendarHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69BAA09526B8F9D000898235 /* CalendarHelper.swift */; };
+		69BAA09826B8F9E600898235 /* EventEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69BAA09726B8F9E600898235 /* EventEditViewController.swift */; };
+		69BAA09A26B8FBA400898235 /* GraphViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69BAA09926B8FBA400898235 /* GraphViewController.swift */; };
+		69BAA09C26B8FBC200898235 /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69BAA09B26B8FBC200898235 /* TimerViewController.swift */; };
+		69BAA09E26B8FBD900898235 /* ptCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69BAA09D26B8FBD900898235 /* ptCell.swift */; };
+		69CAB90026B901C40056372C /* FoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69CAB8FF26B901C40056372C /* FoodViewController.swift */; };
 		7F42678126AF84CD008FAE65 /* HabitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F42678026AF84CD008FAE65 /* HabitViewController.swift */; };
 		7F47FF4426B04A940041C3F8 /* CircularProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F47FF4226B04A940041C3F8 /* CircularProgressBar.swift */; };
 		7F5DA29526B2A4EF00A36981 /* AddHabitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F5DA29426B2A4EF00A36981 /* AddHabitViewController.swift */; };
+		7F5ECB5E26BA27740072EF77 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F5ECB5D26BA27720072EF77 /* logo.png */; };
+		C162547726BBDE5200CE2121 /* SPAMClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = C162547626BBDE5200CE2121 /* SPAMClassifier.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1814633AD0F68BE6A76CE61B /* Pods-guru_project.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-guru_project.release.xcconfig"; path = "Target Support Files/Pods-guru_project/Pods-guru_project.release.xcconfig"; sourceTree = "<group>"; };
 		4564D1ED383F658240D1483A /* Pods-guru_project.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-guru_project.debug.xcconfig"; path = "Target Support Files/Pods-guru_project/Pods-guru_project.debug.xcconfig"; sourceTree = "<group>"; };
+		6901550726B9B88200FEB8EA /* PTViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PTViewController.swift; sourceTree = "<group>"; };
+		6901551326B9BE6E00FEB8EA /* diary.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = diary.PNG; sourceTree = "<group>"; };
+		6901551426B9BE6F00FEB8EA /* food.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = food.PNG; sourceTree = "<group>"; };
+		6901551526B9BE7100FEB8EA /* pt.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pt.PNG; sourceTree = "<group>"; };
+		6901551626B9BE7300FEB8EA /* habit.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = habit.PNG; sourceTree = "<group>"; };
+		6901551B26B9C61200FEB8EA /* FAQViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQViewController.swift; sourceTree = "<group>"; };
+		691CB8C126BA3093005C8F14 /* setting.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = setting.PNG; sourceTree = "<group>"; };
+		691CB8C426BA309D005C8F14 /* fap.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fap.PNG; sourceTree = "<group>"; };
+		691CB8C626BA31A1005C8F14 /* pencil.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pencil.PNG; sourceTree = "<group>"; };
+		691CB8C826BA3712005C8F14 /* intro.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = intro.gif; sourceTree = "<group>"; };
+		691CB8D826BB9762005C8F14 /* image.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image.PNG; sourceTree = "<group>"; };
 		695DAA1226ABE1F600DD880D /* guru_project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = guru_project.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		695DAA1526ABE1F600DD880D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		695DAA1726ABE1F600DD880D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -53,10 +89,24 @@
 		695DAA4326ABF7DA00DD880D /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
 		695DAA4826ABFBD800DD880D /* InputlistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputlistViewController.swift; sourceTree = "<group>"; };
 		695DAA4C26ABFF2000DD880D /* SettingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingTableViewCell.swift; sourceTree = "<group>"; };
-		695DAA5226AC019800DD880D /* healthy.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = healthy.gif; sourceTree = "<group>"; };
+		69BAA07926B8E64400898235 /* bell.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bell.PNG; sourceTree = "<group>"; };
+		69BAA08326B8EB8300898235 /* SettingViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController2.swift; sourceTree = "<group>"; };
+		69BAA08526B8F6A100898235 /* MyhealthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyhealthViewController.swift; sourceTree = "<group>"; };
+		69BAA08D26B8F96400898235 /* WeeklyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeeklyViewController.swift; sourceTree = "<group>"; };
+		69BAA08F26B8F98700898235 /* EventCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventCell.swift; sourceTree = "<group>"; };
+		69BAA09126B8F99C00898235 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		69BAA09326B8F9B700898235 /* CalendarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarCell.swift; sourceTree = "<group>"; };
+		69BAA09526B8F9D000898235 /* CalendarHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarHelper.swift; sourceTree = "<group>"; };
+		69BAA09726B8F9E600898235 /* EventEditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventEditViewController.swift; sourceTree = "<group>"; };
+		69BAA09926B8FBA400898235 /* GraphViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphViewController.swift; sourceTree = "<group>"; };
+		69BAA09B26B8FBC200898235 /* TimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
+		69BAA09D26B8FBD900898235 /* ptCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ptCell.swift; sourceTree = "<group>"; };
+		69CAB8FF26B901C40056372C /* FoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodViewController.swift; sourceTree = "<group>"; };
 		7F42678026AF84CD008FAE65 /* HabitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitViewController.swift; sourceTree = "<group>"; };
 		7F47FF4226B04A940041C3F8 /* CircularProgressBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircularProgressBar.swift; sourceTree = "<group>"; };
 		7F5DA29426B2A4EF00A36981 /* AddHabitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddHabitViewController.swift; sourceTree = "<group>"; };
+		7F5ECB5D26BA27720072EF77 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		C162547626BBDE5200CE2121 /* SPAMClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SPAMClassifier.mlmodel; sourceTree = SOURCE_ROOT; };
 		EB1331DF72D76DA79B7139FB /* Pods_guru_project.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_guru_project.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -126,7 +176,17 @@
 		695DAA2B26ABE37E00DD880D /* image */ = {
 			isa = PBXGroup;
 			children = (
-				695DAA5226AC019800DD880D /* healthy.gif */,
+				691CB8D826BB9762005C8F14 /* image.PNG */,
+				691CB8C426BA309D005C8F14 /* fap.PNG */,
+				691CB8C626BA31A1005C8F14 /* pencil.PNG */,
+				691CB8C126BA3093005C8F14 /* setting.PNG */,
+				6901551326B9BE6E00FEB8EA /* diary.PNG */,
+				6901551426B9BE6F00FEB8EA /* food.PNG */,
+				6901551626B9BE7300FEB8EA /* habit.PNG */,
+				6901551526B9BE7100FEB8EA /* pt.PNG */,
+				7F5ECB5D26BA27720072EF77 /* logo.png */,
+				69BAA07926B8E64400898235 /* bell.PNG */,
+				691CB8C826BA3712005C8F14 /* intro.gif */,
 				695DAA3226ABE8A200DD880D /* healthy.png */,
 			);
 			path = image;
@@ -144,16 +204,14 @@
 		695DAA2D26ABE39100DD880D /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				7F5DA29426B2A4EF00A36981 /* AddHabitViewController.swift */,
-				7F42678026AF84CD008FAE65 /* HabitViewController.swift */,
-				695DAA3A26ABF32800DD880D /* HomeViewController.swift */,
-				695DAA4826ABFBD800DD880D /* InputlistViewController.swift */,
-				695DAA3026ABE53500DD880D /* IntroViewController.swift */,
-				695DAA3826ABF31B00DD880D /* LoginViewController.swift */,
-				695DAA4C26ABFF2000DD880D /* SettingTableViewCell.swift */,
-				695DAA4326ABF7DA00DD880D /* SettingViewController.swift */,
-				695DAA3626ABF2CE00DD880D /* SingUpViewController.swift */,
-				695DAA1926ABE1F600DD880D /* ViewController.swift */,
+				69BAA08226B8E75800898235 /* SettingViewController */,
+				69BAA08126B8E74B00898235 /* MyhealthViewController */,
+				69BAA08026B8E73F00898235 /* DiaryViewController */,
+				69BAA07F26B8E73700898235 /* PTViewController */,
+				69BAA07E26B8E72700898235 /* FoodViewController */,
+				69BAA07D26B8E71B00898235 /* HabitViewController */,
+				69BAA07C26B8E71200898235 /* InputListViewController */,
+				69BAA07B26B8E70300898235 /* Login&Home */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -168,6 +226,87 @@
 			path = Helpers;
 			sourceTree = "<group>";
 		};
+		69BAA07B26B8E70300898235 /* Login&Home */ = {
+			isa = PBXGroup;
+			children = (
+				695DAA3A26ABF32800DD880D /* HomeViewController.swift */,
+				695DAA3026ABE53500DD880D /* IntroViewController.swift */,
+				695DAA3826ABF31B00DD880D /* LoginViewController.swift */,
+				695DAA3626ABF2CE00DD880D /* SingUpViewController.swift */,
+				695DAA1926ABE1F600DD880D /* ViewController.swift */,
+			);
+			path = "Login&Home";
+			sourceTree = "<group>";
+		};
+		69BAA07C26B8E71200898235 /* InputListViewController */ = {
+			isa = PBXGroup;
+			children = (
+				695DAA4826ABFBD800DD880D /* InputlistViewController.swift */,
+			);
+			path = InputListViewController;
+			sourceTree = "<group>";
+		};
+		69BAA07D26B8E71B00898235 /* HabitViewController */ = {
+			isa = PBXGroup;
+			children = (
+				7F42678026AF84CD008FAE65 /* HabitViewController.swift */,
+				7F5DA29426B2A4EF00A36981 /* AddHabitViewController.swift */,
+			);
+			path = HabitViewController;
+			sourceTree = "<group>";
+		};
+		69BAA07E26B8E72700898235 /* FoodViewController */ = {
+			isa = PBXGroup;
+			children = (
+				69CAB8FF26B901C40056372C /* FoodViewController.swift */,
+				C162547626BBDE5200CE2121 /* SPAMClassifier.mlmodel */,
+			);
+			path = FoodViewController;
+			sourceTree = "<group>";
+		};
+		69BAA07F26B8E73700898235 /* PTViewController */ = {
+			isa = PBXGroup;
+			children = (
+				69BAA09926B8FBA400898235 /* GraphViewController.swift */,
+				69BAA09B26B8FBC200898235 /* TimerViewController.swift */,
+				69BAA09D26B8FBD900898235 /* ptCell.swift */,
+				6901550726B9B88200FEB8EA /* PTViewController.swift */,
+			);
+			path = PTViewController;
+			sourceTree = "<group>";
+		};
+		69BAA08026B8E73F00898235 /* DiaryViewController */ = {
+			isa = PBXGroup;
+			children = (
+				69BAA08D26B8F96400898235 /* WeeklyViewController.swift */,
+				69BAA08F26B8F98700898235 /* EventCell.swift */,
+				69BAA09126B8F99C00898235 /* Event.swift */,
+				69BAA09326B8F9B700898235 /* CalendarCell.swift */,
+				69BAA09526B8F9D000898235 /* CalendarHelper.swift */,
+				69BAA09726B8F9E600898235 /* EventEditViewController.swift */,
+			);
+			path = DiaryViewController;
+			sourceTree = "<group>";
+		};
+		69BAA08126B8E74B00898235 /* MyhealthViewController */ = {
+			isa = PBXGroup;
+			children = (
+				69BAA08526B8F6A100898235 /* MyhealthViewController.swift */,
+			);
+			path = MyhealthViewController;
+			sourceTree = "<group>";
+		};
+		69BAA08226B8E75800898235 /* SettingViewController */ = {
+			isa = PBXGroup;
+			children = (
+				695DAA4C26ABFF2000DD880D /* SettingTableViewCell.swift */,
+				695DAA4326ABF7DA00DD880D /* SettingViewController.swift */,
+				69BAA08326B8EB8300898235 /* SettingViewController2.swift */,
+				6901551B26B9C61200FEB8EA /* FAQViewController.swift */,
+			);
+			path = SettingViewController;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -180,6 +319,7 @@
 				695DAA0F26ABE1F600DD880D /* Frameworks */,
 				695DAA1026ABE1F600DD880D /* Resources */,
 				45B520E0741C27DBAAEE4BA9 /* [CP] Embed Pods Frameworks */,
+				79FB493AC54211367048C925 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -228,11 +368,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				695DAA3326ABE8A200DD880D /* healthy.png in Resources */,
+				6901551826B9BE7500FEB8EA /* food.PNG in Resources */,
 				695DAA2226ABE1F900DD880D /* LaunchScreen.storyboard in Resources */,
 				695DAA4226ABF47A00DD880D /* Main.storyboard in Resources */,
+				6901551926B9BE7500FEB8EA /* pt.PNG in Resources */,
+				691CB8C726BA31A1005C8F14 /* pencil.PNG in Resources */,
+				691CB8C526BA309E005C8F14 /* fap.PNG in Resources */,
+				691CB8C326BA3094005C8F14 /* setting.PNG in Resources */,
+				6901551726B9BE7500FEB8EA /* diary.PNG in Resources */,
 				695DAA2A26ABE22200DD880D /* GoogleService-Info.plist in Resources */,
 				695DAA1F26ABE1F900DD880D /* Assets.xcassets in Resources */,
-				695DAA5326AC019800DD880D /* healthy.gif in Resources */,
+				7F5ECB5E26BA27740072EF77 /* logo.png in Resources */,
+				6901551A26B9BE7500FEB8EA /* habit.PNG in Resources */,
+				691CB8C926BA3712005C8F14 /* intro.gif in Resources */,
+				69BAA07A26B8E64500898235 /* bell.PNG in Resources */,
+				691CB8D926BB9763005C8F14 /* image.PNG in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +428,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		79FB493AC54211367048C925 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-guru_project/Pods-guru_project-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-guru_project/Pods-guru_project-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-guru_project/Pods-guru_project-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -285,19 +452,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69BAA09A26B8FBA400898235 /* GraphViewController.swift in Sources */,
+				69BAA09E26B8FBD900898235 /* ptCell.swift in Sources */,
+				69BAA08E26B8F96400898235 /* WeeklyViewController.swift in Sources */,
+				69BAA09826B8F9E600898235 /* EventEditViewController.swift in Sources */,
 				695DAA3926ABF31B00DD880D /* LoginViewController.swift in Sources */,
 				695DAA1A26ABE1F600DD880D /* ViewController.swift in Sources */,
 				695DAA1626ABE1F600DD880D /* AppDelegate.swift in Sources */,
 				695DAA3726ABF2CE00DD880D /* SingUpViewController.swift in Sources */,
+				69BAA09626B8F9D000898235 /* CalendarHelper.swift in Sources */,
 				695DAA4926ABFBD900DD880D /* InputlistViewController.swift in Sources */,
+				69BAA09026B8F98700898235 /* EventCell.swift in Sources */,
+				69BAA09426B8F9B700898235 /* CalendarCell.swift in Sources */,
 				695DAA1826ABE1F600DD880D /* SceneDelegate.swift in Sources */,
+				69BAA09226B8F99C00898235 /* Event.swift in Sources */,
+				6901551C26B9C61200FEB8EA /* FAQViewController.swift in Sources */,
+				69BAA08426B8EB8300898235 /* SettingViewController2.swift in Sources */,
 				7F42678126AF84CD008FAE65 /* HabitViewController.swift in Sources */,
+				69CAB90026B901C40056372C /* FoodViewController.swift in Sources */,
 				7F5DA29526B2A4EF00A36981 /* AddHabitViewController.swift in Sources */,
+				6901550826B9B88200FEB8EA /* PTViewController.swift in Sources */,
 				695DAA4D26ABFF2000DD880D /* SettingTableViewCell.swift in Sources */,
 				695DAA4426ABF7DA00DD880D /* SettingViewController.swift in Sources */,
+				C162547726BBDE5200CE2121 /* SPAMClassifier.mlmodel in Sources */,
+				69BAA08626B8F6A100898235 /* MyhealthViewController.swift in Sources */,
 				695DAA3B26ABF32800DD880D /* HomeViewController.swift in Sources */,
 				695DAA3E26ABF3DA00DD880D /* Utilities.swift in Sources */,
 				695DAA3126ABE53500DD880D /* IntroViewController.swift in Sources */,
+				69BAA09C26B8FBC200898235 /* TimerViewController.swift in Sources */,
 				695DAA4026ABF3E600DD880D /* Constants.swift in Sources */,
 				7F47FF4426B04A940041C3F8 /* CircularProgressBar.swift in Sources */,
 			);
@@ -354,6 +536,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -415,6 +598,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;

@@ -7,11 +7,15 @@ target 'guru_project' do
 
   # Pods for guru_project
 	pod 'SwiftyGif'
+	pod 'Charts'
 
 	pod 'Firebase/Analytics'
 	pod 'Firebase/Auth'	
 	pod 'Firebase/Core'
 	pod 'Firebase/Firestore'
+	pod 'FirebaseUI'
 
 	pod 'Firebase/Database'
+	pod 'Firebase/Storage'
+	pod 'AlamofireImage', '~> 4.1'
 end
